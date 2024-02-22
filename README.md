@@ -1,6 +1,6 @@
 # spring-data-jpa
 
-In this application, I built a `Spring Boot Rest APIs` using `Spring Data JPA` with `H2 Database`. The CRUD operations are made with Spring Data JPA’s `JpaRepository`. And the database will be `H2 Database` (in memory) by configuring project dependency & datasource.The application will be available at [http://localhost:8080](http://localhost:8080)
+In this application, I built a `Spring Boot Rest APIs` using `Spring Data JPA` with `H2 Database`. The CRUD operations are made with Spring Data JPA’s `JpaRepository`. And the database will be `H2 Database` (in memory) by configuring project dependency & datasource. The application will be available at [http://localhost:8080](http://localhost:8080)
 
 ## Tools and Technologies Used
 - Spring Boot 3.2.2
@@ -21,11 +21,11 @@ In this application, I built a `Spring Boot Rest APIs` using `Spring Data JPA` w
 | /students | POST | Create a new student. |
 
 ## DEMO
-- Access H2 Database
+1. Access H2 Database
 <img src="images/1.png">
 
-- Send POST request with POSTMAN
+2. Send POST request with POSTMAN
 <img src="images/2.png">
 
-- Verify the data is added to the H2 Database
+3. Verify the data is added to the H2 Database
 <img src="images/3.png">
